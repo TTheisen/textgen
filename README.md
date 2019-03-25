@@ -10,3 +10,5 @@ Network of Posts and Keywords:
 
 Network of Interactions between Comment Authors and Posts:
 
+![Interactions](https://user-images.githubusercontent.com/32493141/54939356-67afb300-4ef6-11e9-902a-1fa85d44fd61.PNG)
+
