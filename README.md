@@ -1,3 +1,1 @@
 # textgen
-
-![Screenshot](textgen.pdf)
