@@ -34,5 +34,7 @@ Suppose there are two posts 'A' and 'B'. User1 has a previous interaction with U
 ![Interactions](https://user-images.githubusercontent.com/32493141/54939356-67afb300-4ef6-11e9-902a-1fa85d44fd61.PNG)
 
 API Used: Reddit API (PRAW)
+
 Tools Used: Python, Scala, Apache Spark, Apache Kafka
+
 Databased Used: MongoDB, Postgres, Neo4j
