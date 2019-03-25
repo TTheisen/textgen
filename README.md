@@ -6,7 +6,7 @@ Use the opinions, statements, and questions of 330 million Reddit users as train
 
 ### Overview of Project Architecture:
 
-The image below represents a two topic architecture. For instance, topic1 may be healthcare and topic2 may be immigration. Each of these topics have a predefined list of subreddits to stream from using the Reddit API. Each topic also has a predefined set of target keywords to search for within the title of each streamed post. For example, 'healthcare' is a keyword for the healthcare topic. If a keyword is contained in the title, a new document is created within a MongoDB collection that stores that posts information. 
+The image below represents a two topic architecture. The architecture is setup to be distributed so any number of topics are theoretically possible. For instance, topic1 may be healthcare and topic2 may be immigration. Each of these topics have a predefined list of subreddits to stream from using the Reddit API. Each topic also has a predefined set of target keywords to search for within the title of each streamed post. For example, 'healthcare' is a keyword for the healthcare topic. If a keyword is contained in the title, a new document is created within a MongoDB collection that stores that posts information. 
 
 Post Information Stored: Postid, Title, Author, DateTime Posted, Number of Current Upvotes, and Number of Current Comments
 
@@ -33,8 +33,11 @@ Suppose there are two posts 'A' and 'B'. User1 has a previous interaction with U
 
 ![Interactions](https://user-images.githubusercontent.com/32493141/54939356-67afb300-4ef6-11e9-902a-1fa85d44fd61.PNG)
 
-API Used: Reddit API (PRAW)
 
-Tools Used: Python, Scala, Apache Spark, Apache Kafka
 
-Databases Used: MongoDB, Postgres, Neo4j
+
+**API Used:** Reddit API (PRAW)
+
+**Tools Used:** Python, Scala, SQL, Cypher, Apache Spark, Apache Kafka
+
+**Databases Used:** MongoDB, Postgres, Neo4j
