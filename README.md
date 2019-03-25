@@ -37,4 +37,4 @@ API Used: Reddit API (PRAW)
 
 Tools Used: Python, Scala, Apache Spark, Apache Kafka
 
-Databased Used: MongoDB, Postgres, Neo4j
+Databases Used: MongoDB, Postgres, Neo4j
